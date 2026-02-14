@@ -1,0 +1,35 @@
+.full{
+    background-color: #b7e4c7;
+}
+
+.incomplete li{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    list-style: none;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.5);
+}
+
+label{
+    font-weight: bold;
+}
+
+button{
+    background-color: red;
+    color: white;
+    border: none;
+    margin-left: 4px;
+    border-radius: 15%;
+}
+
+.complete li{
+
+    padding-top: 8px;
+    padding-bottom: 8px;
+    list-style: none;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.5);
+    display: flex;
+    justify-content: space-between;
+}
